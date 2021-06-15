@@ -29,3 +29,6 @@ jobs:
       
       - name: Try to build my code
         run: dotnet build
+
+      - name: Run unit tests on my code
+        run: dotnet test -v n
