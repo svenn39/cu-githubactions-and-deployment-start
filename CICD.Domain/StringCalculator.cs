@@ -17,7 +17,7 @@ namespace CICD.Domain
                     try
                     {
                         int numberToAdd = Convert.ToInt32(number);
-                        //sum += numberToAdd;
+                        sum += numberToAdd;
                     }
                     catch
                     {
